@@ -87,11 +87,5 @@ Dax
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
     and transactions.market_code="Mark001";`
 
-## Bugs & Logs
-
-1. If you find a bug, kindly open an issue and it will be addressed as early as possible. [Open](https://github.com/hrishikeshkini/sales-insight-using-sql-tableau-powerbi/issues)
-
-## Contributors
-  [Hrishikesh Kini](https://github.com/hrishikeshkini)
 
 
